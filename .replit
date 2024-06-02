@@ -1,0 +1,7 @@
+modules = ["c-clang14"]
+run = "git config --global user.name \"Your Name Here\" "
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "git config --global user.name \"Your Name Here\" "]
